@@ -1,0 +1,38 @@
+.dropdown-container {
+    display: flex;
+  }
+  
+  .dropdown {
+    position: relative;
+    margin-right: 10px;
+  }
+  
+  .dropdown-toggle {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    padding: 5px;
+    z-index: 1;
+  }
+  
+  .dropdown-content label {
+    display: block;
+  }
+  
+  .dropdown-content input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .dropdown.open .dropdown-content {
+    display: block;
+  }
+  
